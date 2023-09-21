@@ -214,3 +214,8 @@ app_license = "mit"
 # auth_hooks = [
 #	"zav_thai_amount.auth.validate"
 # ]
+jinja = {
+    "methods": [
+        "zav_thai_amount.utils.amount_in_thai"
+    ]
+}
